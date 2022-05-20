@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/potential_worker_profile"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".controllers.employer.EmployerModePotentialWorkerProfileActivity">
+
+    <ImageView
+        android:id="@+id/employer_mode_potential_worker_profile_picture"
+        android:layout_width="147dp"
+        android:layout_height="127dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/employer_mode_potential_worker_profile_picture"
+        android:src="@android:drawable/btn_star_big_on"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ImageContrastCheck" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="385dp"
+        android:layout_height="588dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/employer_mode_potential_worker_profile_picture">
+
+        <Button
+            android:id="@+id/employer_mode_potential_worker_profile_confirm_accept_button"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/employer_mode_potential_worker_profile_confirm_accept_button" />
+
+        <TextView
+            android:id="@+id/employer_mode_potential_worker_profile_first_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/employer_mode_potential_worker_profile_first_name"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/employer_mode_potential_worker_profile_last_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/employer_mode_potential_worker_profile_last_name"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/employer_mode_potential_worker_profile_skill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/employer_mode_potential_worker_profile_skill"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/employer_mode_potential_worker_profile_years_of_experience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/employer_mode_potential_worker_profile_years_of_experience"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/employer_mode_potential_worker_profile_zipcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/employer_mode_potential_worker_profile_zipcode"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/employer_mode_potential_worker_profile_about_me"
+            android:layout_width="match_parent"
+            android:layout_height="202dp"
+            android:text="@string/employer_mode_potential_worker_profile_about_me"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/employer_mode_potential_worker_profile_email"
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:text="@string/email_wait_for_worker_to_accept"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">UJob</string>
+    <string name="welcome">Welcome to UJob</string>
+    <string name="register">Register</string>
+
+    <string name="email">E-Mail</string>
+    <string name="password">Password</string>
+
+    <string name="login_button">Log-In</string>
+    <string name="register_button">Register</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="button">Submit</string>
+    <string name="logout">Logout</string>
+    <string name="employee">Worker</string>
+    <string name="pick_a_mode">Pick a mode</string>
+    <string name="employer">Employer</string>
+    <string name="welcome_to_employer_mode">Welcome to Employer Mode</string>
+    <string name="welcome_to_worker_mode">Worker Mode</string>
+    <string name="job_radius">Job radius: %dmi</string>
+    <string name="no_data">No Data</string>
+    <string name="amount">Amount: $%s</string>
+    <string name="request">Request</string>
+    <string name="zip_string">#####</string>
+    <string name="location">Location:</string>
+    <string name="description">Description:</string>
+    <string name="author_text">Author text</string>
+    <!--<string name="author">Author:</string>-->
+    <string name="job_name">Job Name</string>
+    <string name="profile_picture">Profile Picture</string>
+
+    <string name="current_user_profile_picture"></string>
+    <string name="current_user_edit_profile_button">Customize Profile</string>
+    <string name="upload_picture_button">Upload Picture</string>
+    <string name="upload_resume">Upload Resume</string>
+    <string name="upload_resume_button">Upload Resume</string>
+    <string name="user_about_me">About me: I am ...</string>
+    <string name="user_postal_code">Postal Code</string>
+    <string name="years_of_experience">Year(s) of experience</string>
+    <string name="user_skill">Skill</string>
+    <string name="customize_profile">Customize Profile</string>
+    <string name="edit_user_submit">Submit</string>
+    <string name="current_user_welcome">Welcome User</string>
+
+    <string name="create_a_new_job">Create a New Job</string>
+    <string name="author">Author</string>
+    <string name="your_name">Your Name</string>
+    <string name="potential_worker_name">Worker Name</string>
+    <string name="job_description">Job Description</string>
+    <string name="payment_amount">Payment Amount</string>
+    <string name="area_zipcode">Area/Zipcode</string>
+    <string name="potential_employees_title">List of Potential Workers</string>
+
+    <!--<string name="profile_picture">Profile Picture</string>-->
+    <string name="recycler_view_potential_workers_list_accept_button">ACCEPT</string>
+    <string name="potential_worker_years_of_experience">Years of Experience:</string>
+    <string name="potential_worker_years_of_experince_number">N/A</string>
+    <string name="employer_mode_potential_worker_profile_first_name">First Name:</string>
+    <string name="employer_mode_potential_worker_profile_last_name">Last Name:</string>
+    <string name="employer_mode_potential_worker_profile_skill">Skill:</string>
+    <string name="employer_mode_potential_worker_profile_years_of_experience">Year(s) of Experience:</string>
+    <string name="employer_mode_potential_worker_profile_zipcode">Postal Code:</string>
+    <string name="employer_mode_potential_worker_profile_about_me">About Me:</string>
+    <string name="employer_mode_potential_worker_profile_picture">TODO</string>
+    <string name="employer_mode_potential_worker_profile_confirm_accept_button">Confirm Acceptance</string>
+    <string name="accepted_workers_title">List of Accepted Workers</string>
+    <string name="nothing_to_see_here">Nothing to see here</string>
+    <string name="worker_mode_accepted_jobs_list_button">Accepted Jobs</string>
+    <string name="worker_mode_accepted_jobs_title">List of Accepted Jobs</string>
+    <string name="worker_mode_accepted_job_profile_name">Name:</string>
+    <string name="worker_mode_accepted_job_profile_job_name">Job Name:</string>
+    <string name="worker_mode_accepted_job_profile_description">Description:</string>
+    <string name="worker_mode_accepted_job_profile_payment">Payment:</string>
+    <string name="worker_mode_accepted_job_profile_zipcode">ZipCode:</string>
+    <string name="worker_mode_accepted_job_profile_confirm_button">Confirm Acceptance of Job</string>
+    <string name="worker_mode_accepted_job_profile_email">Email: accept job to reveal</string>
+    <string name="email_wait_for_worker_to_accept">Email: Wait for Worker to Accept</string>
+    <string name="go_back_to_job_list">Go Back To Job List</string>
+    <string name="go_back">Go Back</string>
+    <string name="activity_create_job_your_name">Your Name</string>
+    <string name="activity_create_job_job_name">Job Name</string>
+    <string name="activity_create_job_job_description">Job Description</string>
+    <string name="activity_create_job_payment_amount">Payment Amount</string>
+    <string name="activity_create_job_area_zipcode">Area/Zipcode</string>
+    <string name="activity_create_job_submit">Submit</string>
+
+
+</resources>

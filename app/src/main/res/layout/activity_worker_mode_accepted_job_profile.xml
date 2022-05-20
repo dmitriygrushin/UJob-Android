@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/worker_mode_job_profile_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controllers.worker.WorkerModeAcceptedJobProfileActivity">
+
+    <ImageView
+        android:id="@+id/worker_mode_accepted_job_profile_picture"
+        android:layout_width="122dp"
+        android:layout_height="117dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        tools:ignore="ImageContrastCheck" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="408dp"
+        android:layout_height="552dp"
+        android:layout_marginTop="46dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/worker_mode_accepted_job_profile_picture">
+
+        <Button
+            android:id="@+id/worker_mode_accepted_job_profile_confirm_button"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:text="@string/worker_mode_accepted_job_profile_confirm_button" />
+
+        <TextView
+            android:id="@+id/worker_mode_accepted_job_profile_name"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="@string/worker_mode_accepted_job_profile_name"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/worker_mode_accepted_job_profile_job_name"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:text="@string/worker_mode_accepted_job_profile_job_name"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/worker_mode_accepted_job_profile_description"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:text="@string/worker_mode_accepted_job_profile_description"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/worker_mode_accepted_job_profile_zipcode"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:text="@string/worker_mode_accepted_job_profile_zipcode"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/worker_mode_accepted_job_profile_payment"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:text="@string/worker_mode_accepted_job_profile_payment"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/worker_mode_accepted_job_profile_email"
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:text="@string/worker_mode_accepted_job_profile_email"
+            android:textAlignment="viewStart"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

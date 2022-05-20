@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/user_mode_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controllers.generalUser.UserModesActivity">
+
+    <TextView
+        android:id="@+id/current_user_welcome"
+        android:layout_width="333dp"
+        android:layout_height="36dp"
+        android:hint="@string/current_user_welcome"
+        android:textColorHint="#78909C"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/logout_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.527" />
+
+    <Button
+        android:id="@+id/user_mode_employee_button"
+        android:layout_width="181dp"
+        android:layout_height="93dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="124dp"
+        android:backgroundTint="#07DA0F"
+        android:text="@string/employee"
+        android:textColor="#0D47A1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/logout_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF1100"
+        android:text="@string/logout"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <TextView
+        android:id="@+id/user_mode_pick_a_mode"
+        android:layout_width="269dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="41dp"
+        android:text="@string/pick_a_mode"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/user_mode_employee_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/current_user_welcome"
+        />
+
+    <Button
+        android:id="@+id/user_mode_employer_button"
+        android:layout_width="173dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="124dp"
+        android:backgroundTint="#00BCD4"
+        android:text="@string/employer"
+        android:textColor="#283593"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/user_mode_employee_button"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/current_user_profile_picture"
+        android:layout_width="191dp"
+        android:layout_height="164dp"
+        android:contentDescription="@string/current_user_profile_picture"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.028"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        tools:ignore="ImageContrastCheck" />
+
+    <Button
+        android:id="@+id/current_user_edit_profile_button"
+        android:layout_width="204dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="2dp"
+        android:backgroundTint="#FF5722"
+        android:text="@string/current_user_edit_profile_button"
+        android:textColor="#212121"
+        android:textColorHint="#FF5722"
+        app:layout_constraintBottom_toTopOf="@+id/current_user_welcome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/current_user_profile_picture"
+        app:layout_constraintVertical_bias="0.234" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

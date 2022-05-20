@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/employer_profile_activity"
+    tools:context=".controllers.employer.EmployerProfileActivity">
+
+    <ImageView
+        android:id="@+id/employer_profile_pic"
+        android:layout_width="147dp"
+        android:layout_height="127dp"
+        android:contentDescription="@string/employer_mode_potential_worker_profile_picture"
+        android:src="@android:drawable/btn_star_big_on"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.026"
+        tools:ignore="ImageContrastCheck" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="405dp"
+        android:layout_height="366dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/employer_profile_pic"
+        app:layout_constraintVertical_bias="0.395">
+
+
+        <TextView
+            android:id="@+id/employer_profile_first_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/employer_mode_potential_worker_profile_first_name"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/employer_profile_last_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/employer_mode_potential_worker_profile_last_name"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/employer_profile_skill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/employer_mode_potential_worker_profile_skill"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/employer_profile_years_of_experience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/employer_mode_potential_worker_profile_years_of_experience"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/employer_profile_zipcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/employer_mode_potential_worker_profile_zipcode"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/employer_profile_about_me"
+            android:layout_width="match_parent"
+            android:layout_height="184dp"
+            android:text="@string/employer_mode_potential_worker_profile_about_me"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/go_back_to_job_listing_btn"
+        android:layout_width="101dp"
+        android:layout_height="64dp"
+        android:text="@string/go_back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.916" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
